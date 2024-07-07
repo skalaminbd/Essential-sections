@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essential sections</title>
+</head>
+<body>
+
+  <!--=========================
+  =======  SECTION ONE  =======
+  ==========================-->
+  <div class="c-div-parent">
+    <div class="c-div-child col-text">
+        <h2>Luxe fashion essentials</h2>
+        <p>Experience the epitome of luxury with S-store. Our commitment to premium quality ensures that each piece in our collection not only exudes style but also stands the test of time.</p>
+        <button class="globo-formbuilder-open" data-id="NDY4MjU=">SUBMIT YOUR CUSTOM ORDER</button>
+    </div>
+    <div class="c-div-child">
+        <img src="https://575f78-35.myshopify.com/cdn/shop/files/smi-smi-clothing-classic-22.jpg?v=1720102338&width=1200" alt="">
+    </div>
+</div>
+
+<!-- STYLES -->
+<style>
+  .c-div-parent {
+      display: flex;
+      background: #000;
+    }
+    .c-div-child {
+      width: 50%;
+    }
+    .col-text {
+      padding: 80px;
+      max-width: 700px;
+      display: grid;
+      align-content: center;
+      justify-items: start;
+    }
+    h2,
+    p {
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    button {
+      background: #fff;
+      padding: 20px 30px;
+      color: #000;
+      font-weight: 600;
+      font-size: 17px;
+      transition: 0.5s ease all;
+      cursor: pointer;
+    }
+    button:hover {
+      transform: scale(1.07);
+    }
+    @media all and (max-width: 586px) {
+      .c-div-parent {
+        display: block;
+      }
+      .c-div-child {
+        width: 100%;
+      }
+      .col-text {
+        padding: 30px 15px;
+      }
+    }
+</style>
+<!--===============================
+  =======  SECTION ONE END  =======
+  ==============================-->
+  
+</body>
+</html>
+
