@@ -7,70 +7,110 @@
 </head>
 <body>
 
+  <!-- CUSTOM CSS FOR LCAAD: COPIED FROM LCAAD CUSTOM CSS FIELD-->
+  .h2,
+h2,
+.smi-h2 {
+  font-size: var(--h2-size) !important;
+  line-height: var(--h2-line-height) !important;
+  letter-spacing: var(--h2-letter-spacing) !important;
+  font-weight: var(--h2-weight) !important;
+}
+.breadcrumbs ul {
+  font-size: 15px;
+}
+.footer__social-media .mr-3 {
+  color: #fff !important;
+}
+.footer__social-media .social-media__tiktok svg {
+  background: #fff;
+}
+.smi-text-75 {
+  opacity: 1 !important;
+}
+
   <!--=========================
-  =======  SECTION ONE  =======
+  =======  SECTION ONE FOR LCAAD CUSTOM PAGE =======
   ==========================-->
   <div class="c-div-parent">
-    <div class="c-div-child col-text">
-        <h2>Luxe fashion essentials</h2>
-        <p>Experience the epitome of luxury with S-store. Our commitment to premium quality ensures that each piece in our collection not only exudes style but also stands the test of time.</p>
-        <button class="globo-formbuilder-open" data-id="NDY4MjU=">SUBMIT YOUR CUSTOM ORDER</button>
-    </div>
     <div class="c-div-child">
-        <img src="https://575f78-35.myshopify.com/cdn/shop/files/smi-smi-clothing-classic-22.jpg?v=1720102338&width=1200" alt="">
+        <img src="https://575f78-35.myshopify.com/cdn/shop/files/smi-smi-clothing-classic-22.jpg" alt="" height="100%" width="100%">
+    </div>
+    <div class="c-div-child col-text">
+        <h2>Your Vision, Our Creation</h2>
+        <p>We will bring your vision to life through custom merchandise and apparel. From screen printing, sublimation, and embroidery to creative services, our turn-key operation can ensure that your brand is in very good hands every step of the way. Our advanced technology and experienced workforce will create a seamless customer experience.</p>
+        <a href="https://cdn.shopify.com/s/files/1/0709/1883/2351/files/LCAAD_-_Catalog_-_2024.pdf?v=1720820017/" download target="_blank"><button>Download Our 23-24 Catalog</button></a>
     </div>
 </div>
 
 <!-- STYLES -->
-<style>
+.c-div-parent {
+  display: flex;
+  background: #000;
+}
+.c-div-child {
+  width: 50%;
+}
+img {
+  object-fit: cover;
+}
+.col-text {
+  padding: 80px;
+  max-width: 700px;
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+h2,
+p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+button {
+  background: #fff;
+  padding: 20px 30px;
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 0.5s ease all;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.07);
+}
+@media all and (max-width: 600px) {
   .c-div-parent {
-      display: flex;
-      background: #000;
-    }
-    .c-div-child {
-      width: 50%;
-    }
-    .col-text {
-      padding: 80px;
-      max-width: 700px;
-      display: grid;
-      align-content: center;
-      justify-items: start;
-    }
-    h2,
-    p {
-      color: #fff;
-      margin-bottom: 30px;
-    }
-    img{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-    button {
-      background: #fff;
-      padding: 20px 30px;
-      color: #000;
-      font-weight: 600;
-      font-size: 17px;
-      transition: 0.5s ease all;
-      cursor: pointer;
-    }
-    button:hover {
-      transform: scale(1.07);
-    }
-    @media all and (max-width: 586px) {
-      .c-div-parent {
-        display: block;
-      }
-      .c-div-child {
-        width: 100%;
-      }
-      .col-text {
-        padding: 30px 15px;
-      }
-    }
-</style>
+    display: block;
+  }
+  .c-div-child {
+    width: 100%;
+  }
+  .col-text {
+    padding: 30px 15px;
+  }
+}
+
+<!-- FOR FONT SIZE. WILL PLACE THE CODE TO CUSTOM.CSS -->
+  
+.c-div-parent p {
+  font-size: 20px !important;
+  line-height: 1.6;
+}
+.c-div-parent h2 {
+  font-size: 50px !important;
+  line-height: 1.4 !important;
+} /* custom order page first section*/
+@media all and (max-width: 600px) {
+  .c-div-parent p {
+    font-size: 18px !important;
+    line-height: 1.6;
+  }
+  .c-div-parent h2 {
+    font-size: 32px !important;
+    line-height: 1.4 !important;
+  }
+}
+  
 <!--===============================
   =======  SECTION ONE END  =======
   ==============================-->
